@@ -4,6 +4,8 @@
 #include "device/audio_device_manager.h"
 #include "device/audio_volume_listener.h"
 #include <iostream>
+#include <memory>
+
 
 class AudioEngine::AudioEngineImpl {
 public:

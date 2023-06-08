@@ -8,6 +8,8 @@
 #include <wchar.h>
 #include <windows.h>
 #include <vector>
+#include <memory>
+
 
 namespace utils
 {

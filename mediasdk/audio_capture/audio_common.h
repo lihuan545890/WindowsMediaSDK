@@ -1,5 +1,6 @@
 ﻿#pragma once
 #include <string>
+#include <memory>
 
 #define SAFE_RELEASE(p) \
   do {                  \

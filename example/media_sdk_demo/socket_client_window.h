@@ -1,6 +1,8 @@
 #pragma once
 #include <functional>
 #include <string>
+#include <memory>
+
 
 #include "UIlib.h"
 class SocketClient;

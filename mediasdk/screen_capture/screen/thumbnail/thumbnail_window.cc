@@ -55,7 +55,7 @@ bool ThumbnailWindow::Create(const RECT& rect) {
             return;
         }
 
-        ::SetWindowLong(thumbanil_hwnd_, GWL_USERDATA, (LONG)this);
+        ::SetWindowLongPtr(thumbanil_hwnd_, GWLP_USERDATA, (LONG)this);
         ::SetWindowLong(thumbanil_hwnd_, GWL_EXSTYLE,
                         ::GetWindowLong(thumbanil_hwnd_, GWL_EXSTYLE) | WS_EX_TRANSPARENT |
                             WS_EX_LAYERED);
